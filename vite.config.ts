@@ -19,6 +19,11 @@ export default defineConfig({
     server: {
       host: true,
       allowedHosts: true
+      import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/Portfolio/'
+})
     }
   }
 });
