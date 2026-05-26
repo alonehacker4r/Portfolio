@@ -85,5 +85,12 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
+    "homepage": "https://alonehacker4rr.github.io/Portfolio",
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   }
 }
